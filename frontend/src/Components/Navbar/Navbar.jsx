@@ -10,7 +10,8 @@ function Navbar({ setShowLogin }) {
   return (
     <div className="navbar">
       <Link to="/">
-        <img src={assets.logo} alt="" className="logo" />
+        {/* <img src={assets.logo} alt="" className="logo" /> */}
+        <h1>BTMarket.</h1>
       </Link>
       <ul className="navbar-menu">
         <Link
